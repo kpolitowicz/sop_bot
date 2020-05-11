@@ -13,7 +13,7 @@ aaaa               - just prints aaaa
 ```
   EOS
   def self.call(client, data, _match)
-    client.say(channel: data.channel, text: [HELP, SlackRubyBotServer::INFO].join("\n"))
+    client.say(channel: data.channel, text: HELP)
     client.say(channel: data.channel, gif: 'help')
     logger.info "HELP: #{client.owner}, user=#{data.user}"
   end
