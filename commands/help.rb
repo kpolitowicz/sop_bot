@@ -7,7 +7,6 @@ General
 -------
 
 help               - get this helpful message
-whoami             - print your username
 aaaa               - just prints aaaa
 
 ```
