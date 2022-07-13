@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.7.1'
 
-gem 'activerecord', '~> 5.0.0', require: 'active_record'
+gem 'activerecord', '~> 5.2.8', require: 'active_record'
 gem 'newrelic-slack-ruby-bot'
 gem 'otr-activerecord', '~> 1.2.1'
 gem 'pg'
